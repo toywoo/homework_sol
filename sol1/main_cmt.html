@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solution1</title>
+</head>
+<body>
+    <!-- style로 디자인 지정 -->
+    <button id="btn" style="background-color: yellow;">button</button>
+
+    <button><a href="www.naver.com">Go to Naver.com</a></buttom>
+
+    <!-- 스크립트 문서 불러오는 방법 -->
+    <script src="main.js"></script>
+
+    <!-- 이렇게 만드는 것도 문제는 없지만 유지보수 관점에서 좋지 않다 
+         예를 들면 코드 량이 수 만줄이 되면 관리가 어려워진다.
+    <script>
+        let btn = document.getElementById("btn");
+
+        let times = 0;
+
+        btn.addEventListener("click", function () {
+            times++;
+            console.log(times);
+        })
+    </script> -->
+</body>
+</html>
