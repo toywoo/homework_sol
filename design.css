@@ -1,0 +1,15 @@
+/* id를 이용한 디자인 지정 */
+#btn { 
+    background-color: yellow;
+}
+
+/* tag를 이용한 디자인 지정 */
+button {
+    background-color: yellow;
+}
+
+
+/* class를 이용한 디자인 지정 */
+.linkBtn { 
+    background-color: green;
+}
